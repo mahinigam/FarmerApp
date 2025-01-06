@@ -36,56 +36,56 @@ Kisaan Mitra is an e-commerce platform designed specifically for farmers. It hel
 The project follows a standard Maven-based project organization:
 ```
 FarmerApp/
-├── pom.xml                          # Maven project file
-├── src/                              # Source code directory
+├── pom.xml                          
+├── src/                              
 │   ├── main/
-│   │   ├── java/                     # Java source files
+│   │   ├── java/                     
 │   │   │   └── com/
 │   │   │       └── farmapp/
-│   │   │           ├── config/       # Configuration files
+│   │   │           ├── config/       
 │   │   │           │   └── DatabaseConfig.java
-│   │   │           ├── dao/          # Data Access Object classes
+│   │   │           ├── dao/          
 │   │   │           │   ├── FarmerDAO.java
 │   │   │           │   └── ProductDAO.java
-│   │   │           ├── model/        # Model classes (e.g., Farmer, Product)
+│   │   │           ├── model/        
 │   │   │           │   ├── Farmer.java
 │   │   │           │   └── Product.java
-│   │   │           ├── servlet/      # Servlet classes
+│   │   │           ├── servlet/      
 │   │   │           │   ├── FarmerRegistrationServlet.java
 │   │   │           │   ├── LoginServlet.java
 │   │   │           │   └── ProductServlet.java
-│   │   │           └── util/         # Utility classes
+│   │   │           └── util/         
 │   │   │               └── DatabaseUtil.java
-│   │   ├── resources/                # Resource files
-│   │   │   └── db.properties         # Database connection properties
-│   │   └── webapp/                   # Web application files
-│   │       ├── WEB-INF/              # Web configuration files
-│   │       │   └── web.xml           # Web.xml configuration
-│   │       ├── css/                  # CSS files
-│   │       │   └── style.css         # Main stylesheet
-│   │       ├── js/                   # JavaScript files
-│   │       │   └── validation.js     # Validation script
-│   │       ├── index.jsp             # Home page
-│   │       ├── login.jsp             # Login page
-│   │       ├── register.jsp          # Registration page
-│   │       ├── product_form.jsp      # Product listing form
-│   │       ├── product_list.jsp      # Display products list
-│   │       └── dashboard.jsp         # User dashboard
-│   └── test/                         # Test source directory
+│   │   ├── resources/                
+│   │   │   └── db.properties        
+│   │   └── webapp/                   
+│   │       ├── WEB-INF/            
+│   │       │   └── web.xml           
+│   │       ├── css/                 
+│   │       │   └── style.css         
+│   │       ├── js/                  
+│   │       │   └── validation.js     
+│   │       ├── index.jsp             
+│   │       ├── login.jsp             
+│   │       ├── register.jsp          
+│   │       ├── product_form.jsp      
+│   │       ├── product_list.jsp      
+│   │       └── dashboard.jsp         
+│   └── test/                         
 │       └── java/
 │           └── com/
 │               └── farmmarket/
-│                   └── dao/          # DAO test classes
+│                   └── dao/          
 │                       ├── FarmerDAOTest.java
 │                       └── ProductDAOTest.java
-│                   └── model/        # Model test classes
+│                   └── model/        
 │                       ├── FarmerTest.java
 │                       └── ProductTest.java
-│                   └── servlet/      # Servlet test classes
+│                   └── servlet/      
 │                       ├── FarmerRegistrationServletTest.java
 │                       ├── LoginServletTest.java
 │                       └── ProductServletTest.java
-│                   └── util/         # Utility test classes
+│                   └── util/         
 │                       └── DatabaseUtilTest.java
 
 ```
